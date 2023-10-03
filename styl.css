@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: black;
+    color:white;
+    background-image: url("background.gif");
+    background-repeat: repeat-x, repeat-y;
+    background-position: center;
+    width: 284px;
+    border-radius: 20px;
+    padding: 10px 10px 10px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color:white;
+    background-image: url("background.gif");
+    border-radius: 20px;
+    padding: 10px 10px;
+    width: fit-content;
+    margin: auto;
+    
+
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+    
+
+}
+body {
+    background-color: bisque;
+       
+}
+footer {
+    text-align: center;
+    font-family: 'Young Serif', serif;
+    color: black;
+    margin-top: 50px;
+
+
+}
