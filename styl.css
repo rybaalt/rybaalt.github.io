@@ -20,7 +20,7 @@ h2 {
     color:white;
     background-image: url("background.gif");
     border-radius: 20px;
-    padding: 10px 10px;
+    padding: 10px 10px 10px;
     width: fit-content;
     margin: auto;
     
@@ -45,4 +45,27 @@ footer {
     margin-top: 50px;
 
 
+}
+.backgroundhidden{
+
+    overflow: hidden;
+}
+@keyframes slide {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-498px, 0, 0); 
+    }
+  }
+.kotek {
+    background: url("kat.gif") repeat-x;
+    mix-blend-mode: multiply;
+    height: 498px;
+    width: 1494px;
+    overflow: hidden;
+    margin-left: 0px;
+    animation: slide 3s linear infinite;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
