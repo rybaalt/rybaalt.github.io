@@ -69,3 +69,33 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.button1 {
+
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    width:300px;
+    text-align: center;
+    padding: 10px 10px 10px;
+    border-radius: 15px;
+    border-color: white;
+    background-image: url("miczel.webp");
+    background-size: contain;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 0px 2px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    transform: scale(1.00);
+    opacity: 0.85;
+    transition: opacity 0.4s, transform 0.4s, box-shadow 0.4s;
+    
+}
+.button1:hover{
+
+    opacity: 1;
+    transform: skewY(-5deg);
+    box-shadow: 0px 10px 15px;
+
+}
